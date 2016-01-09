@@ -1,0 +1,15 @@
+{
+  "title": "backage",
+  "name": "backage",
+  "version": "0.0.1",
+  "description": "In-browser packages",
+  "main": "index.js",
+  "author": "Olav van Schie",
+  "engines": {
+    "firefox": ">=42.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
