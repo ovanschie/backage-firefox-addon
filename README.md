@@ -1,15 +1,15 @@
 #Backage
 ### In-browser packages
 ----------
-**Backage is an simple proof-of-concept browser extension aiming at making webpages load faster by sharing common Javascript libraries.**
+**Backage is a simple proof-of-concept browser extension that aims at making webpages load faster, by sharing common Javascript libraries.**
 
 The idea:
 
-There are a lot of powerful Javascript libraries these days, which are gaining more and more popularity among webdevelopers. While these libraries provide awesome functionalities, they are also a cause of slow loading pages, especially when using multiple libraries in a single page. Luckily the browser caches (most of the time) the files downloaded from a website.
+There are a lot of powerful Javascript libraries these days, which are gaining more and more popularity among webdevelopers. While these libraries provide awesome functionalities, they are also a cause of slow loading pages, especially when using multiple libraries in a single page. Luckily the browser caches (most of the time) the files downloaded from a single website.
 
-But what if we can use these cached files over multiple websites, that are using the same libraries? We can load a lot more files from the local cache, resulting in an increase in loading performance and decrease in bandwidth usage. Looking at how many sites use jQuery, Angular, Bootstrap or any other library / framework, imagine how much we could save!
+But what if we could share these cached files between websites that use the same libraries? We could load a lot more files from the local cache, resulting in a decrease in loading time and bandwidth usage. Looking at how many sites that are using jQuery, Angular, Bootstrap or any other library / framework, imagine how much we could save!
 
-The goal isn't about making one specific website load faster, it's about making browsing faster, working together.
+The goal isn't about making one specific website load faster, it's about making browsing faster.
 
 ###How it works
 
