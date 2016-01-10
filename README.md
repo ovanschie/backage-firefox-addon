@@ -1,5 +1,4 @@
-#Backage
-### In-browser packages
+#Backage In-browser packages
 ----------
 **Backage is a simple proof-of-concept browser extension that aims at making webpages load faster, by sharing common Javascript libraries.**
 
@@ -19,7 +18,7 @@ Imagine we have the following script tag:
     <script src="assets/libs/jquery-2.1.4.min.js"></script>
 This tells the browser to include the jQuery library into the page, which is hosted on our server. The browser has no clue yet about the content of the script, so it downloads it regardless.
 
-When we have Backage installed, we can tell the browser which libraries we want to use, instead of just linking to the necessary scripts. We can do this by adding some parameters to our script tag: `data-backage-name` and `data-backage-version`. When there is matching library found, Backage will download the library from Jsdelivr and load it instead of the original source. When the package isn't found, or Backage is not installed, the browser will just use the original source as normal. When a specific version of a library is already downloaded before (on any website), then it just serves it from the local cache.
+When we have Backage installed, we can tell the browser which libraries we want to use, instead of just linking to the necessary scripts. We can do this by adding some parameters to our script tag: `data-backage-name` and `data-backage-version`. When there is matching library found, Backage will download the library from Jsdelivr and loads it instead of the original source. When the package isn't found, or Backage is not installed, the browser will just use the original source as normal. When a specific version of a library is already downloaded before (on any website), then it just serves it from the local cache.
 
 Example tag:
 
